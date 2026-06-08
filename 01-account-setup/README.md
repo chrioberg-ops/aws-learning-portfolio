@@ -32,46 +32,48 @@ Skills demonstrated:
 
 ![IAM Dashboard](screenshots/02-iam-dashboard.png)
 
-The IAM Dashboard provides an overview of identity management and account security settings.
+The IAM Dashboard provides an overview of identity and access management within the AWS account. It displays security-related information and helps administrators identify recommended security improvements.
+
+IAM (Identity and Access Management) is the AWS service used to control who can access resources and what actions they are allowed to perform.
 
 Skills demonstrated:
 
 - IAM Administration
 - Security Monitoring
-- AWS Best Practices
 
 ---
 
 ## MFA Configuration
 
+## Multi-Factor Authentication (MFA)
+
 ![MFA Enabled](screenshots/03-iam-mfa-enabled.png)
 
 Multi-Factor Authentication was enabled to improve account security and follow AWS security best practices.
 
+MFA requires users to provide a second authentication factor in addition to their password, significantly reducing the risk of unauthorized access if credentials are compromised.
+
 Skills demonstrated:
 
-- IAM
-- MFA
+- MFA Configuration
 - Account Security
 
 ---
 
 ## AWS CLI Verification
 
+## AWS CLI Verification
+
 ![AWS CLI Identity](screenshots/04-aws-cli-identity.png)
 
-The command below was used to verify that the AWS CLI was correctly configured and authenticated.
+The AWS CLI was used to verify that the account was correctly authenticated.
+
+AWS CLI (Command Line Interface) allows administrators to manage AWS resources directly from the terminal, making automation and scripting possible.
+
+Command used:
 
 ```bash
 aws sts get-caller-identity
-```
-
-Skills demonstrated:
-
-- AWS CLI
-- AWS STS
-- Authentication
-- Command Line Administration
 
 ---
 
